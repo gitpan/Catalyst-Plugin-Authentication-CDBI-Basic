@@ -1,0 +1,17 @@
+---
+name: Catalyst-Plugin-Authentication-CDBI-Basic
+version: 0.01
+author:
+  - Daisuke Murase E<lt>typester@cpan.orgE<gt>
+abstract: Basic Authorization with Catalyst
+license: perl
+requires:
+  Catalyst: 5.33
+  Catalyst::Plugin::Authentication::CDBI: 0
+  MIME::Base64: 0
+  perl: 5.6.0
+provides:
+  Catalyst::Plugin::Authentication::CDBI::Basic:
+    file: lib/Catalyst/Plugin/Authentication/CDBI/Basic.pm
+    version: 0.01
+generated_by: Module::Build version 0.2611
