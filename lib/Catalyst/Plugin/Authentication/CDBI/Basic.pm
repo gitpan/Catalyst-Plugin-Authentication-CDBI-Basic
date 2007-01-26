@@ -3,11 +3,11 @@ use strict;
 use NEXT;
 use MIME::Base64;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
-Catalyst::Plugin::Authentication::CDBI::Basic - Basic Authorization with Catalyst
+Catalyst::Plugin::Authentication::CDBI::Basic - (DEPRECATED) Basic Authorization with Catalyst
 
 =head1 SYNOPSIS
 
@@ -33,6 +33,12 @@ Catalyst::Plugin::Authentication::CDBI::Basic - Basic Authorization with Catalys
             },
         },
     );
+
+=head1 DEPRECATION NOTICE
+
+This module has been deprecated. The use of a new Authentication style is recommended.
+
+See L<Catalyst::Plugin::Authetnication> for detail.
 
 =head1 DESCRIPTION
 

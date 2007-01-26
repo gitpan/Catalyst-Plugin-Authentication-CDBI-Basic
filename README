@@ -1,6 +1,6 @@
 NAME
-    Catalyst::Plugin::Authentication::CDBI::Basic - Basic Authorization with
-    Catalyst
+    Catalyst::Plugin::Authentication::CDBI::Basic - (DEPRECATED) Basic
+    Authorization with Catalyst
 
 SYNOPSIS
         use Catalyst qw/Session::FastMmap Authentication::CDBI Authentication::CDBI::Basic/;
@@ -25,6 +25,12 @@ SYNOPSIS
                 },
             },
         );
+
+DEPRECATION NOTICE
+    This module has been deprecated. The use of a new Authentication style
+    is recommended.
+
+    See Catalyst::Plugin::Authetnication for detail.
 
 DESCRIPTION
     This plugin privide Basic Authorization mechanism for Catalyst
